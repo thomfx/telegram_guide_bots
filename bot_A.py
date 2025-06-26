@@ -8,7 +8,29 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_photo(
             chat_id=update.effective_chat.id,
             photo=photo,
-            caption="Benvenuto nel bot VIP di Thom!\n\nAccedi subito a:\n- Le guide complete\n- Contatto diretto con me.",
+            caption = """📈 *Benvenuto nel mio bot VIP!*
+
+Sono molto contento che da questo momento potrai approcciarti con noi nel mondo del trading, spero che tu possa trovarti bene in questo percorso.
+
+Da questo momento in avanti ti accompagneremo segnale dopo segnale in tutte le operazioni che faremo insieme.  
+Tutto quello che devi fare è seguire le istruzioni, copiare i segnali e imparare strada facendo.
+
+⚠️ *DISCLAIMER:*
+
+Ci teniamo a fare delle raccomandazioni per viverci al meglio questa esperienza assieme.  
+Prima di prendere qualsiasi decisione di investimento (come in tutte le sue forme) hai bisogno di conoscere i rischi che possono conseguirne.  
+L'amministratore e i membri di questo Bot non sono in nessun modo responsabili di eventuali perdite che possono arrivare dall'uso di informazioni contenuti in questo percorso.
+
+*CI TENIAMO AD ESSERE TRASPARENTI:*  
+Motivo per la quale vogliamo ricordarti che tutti i sistemi di Trading comportano dei rischi.  
+Non ci sono strategie che matematicamente garantiscano risultati concreti, ma questo non significa che non si possa essere profittevoli.
+
+Proprio per questo ci siamo noi, cercheremo di fare un buon *ottimo* insieme, come quello che è già stato fatto con tanti altri clienti soddisfatti del nostro servizio gratuito. 😉❗️
+
+Opera *sempre* con consapevolezza e responsabilità, vedrai che raggiungeremo grandi risultati assieme!
+
+Qui sotto troverai tutte le nozioni che ti serviranno per iniziare questo percorso, con l'aggiunta del mio contatto.  
+Ti seguirò passo passo per qualsiasi cosa ti possa servire. ⬇️"""
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("Scrivimi", url="https://t.me/Thom_fx12")],
                 [InlineKeyboardButton("Vai alle Guide", url="https://t.me/Thom_guide_bot")]
