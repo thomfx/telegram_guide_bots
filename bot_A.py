@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_photo(
             chat_id=update.effective_chat.id,
             photo=photo,
-            caption="🔥 Benvenuto nel bot VIP di Thom!\n\nAccedi subito a:\n📘 Le guide complete\n💬 Contatto diretto con me",,
+            caption="Benvenuto nel bot VIP di Thom!\n\nAccedi subito a:\n- Le guide complete\n- Contatto diretto con me",
 
 Accedi subito a:
 📚 Le guide complete
