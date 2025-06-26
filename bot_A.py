@@ -13,7 +13,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 Accedi subito a:
  Le guide complete
- Contatto diretto con me",
+  Contatto diretto con me",
             parse_mode='Markdown',
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(" Scrivimi", url="https://t.me/ismaafx")],
