@@ -6,8 +6,10 @@ TOKEN = "8117500006:AAEJTiGlh9So6xT-ESF5q54HBWKvHNlZE_E"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     with open("logo.jpg", "rb") as photo:
         await context.bot.send_photo(
-            chat_id=update.effective_chat.id,
-            photo=photo,
+    chat_id=update.effective_chat.id,
+    photo=photo,
+    caption=caption,
+    parse_mode="Markdown"
             caption = """📈 *Benvenuto nel mio bot VIP!*
 
 Sono molto contento che da questo momento potrai approcciarti con noi nel mondo del trading, spero che tu possa trovarti bene in questo percorso.
